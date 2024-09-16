@@ -1,0 +1,766 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 0.5px;
+}
+
+
+
+
+/* This is Navigation Bar Modification Part*/
+
+#home-nav-bar{
+    height: 130px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: large;
+    box-shadow: 0 0.25rem 0.75rem rgba(133, 133, 133, 0.7);
+    width: 100%;
+}
+
+.main-logo img{
+    height: 120px;  
+}
+
+#home-nav-bar a{
+    color: #191919;
+    text-decoration: none;
+}
+
+#home-nav-bar > div{
+    margin: 0 20px 0 20px;
+}
+
+.main-menu ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+
+}
+
+.main-menu ul li{
+    padding: 20px;
+}
+
+.nav-logreg-sec,button{
+    display: flex;
+    margin: 0px 10px;
+}
+
+.nav-logreg-sec div{
+    display: flex;
+    margin: 0px 10px;
+}
+
+.nav-logreg-sec button{
+    color: white;
+    background-color:#ffb413;
+    padding: 15px;
+    margin-right: 30px;
+    font-size: medium;
+    border: none;
+    font-weight: 600;
+}
+
+.nav-logreg-sec button:hover{
+    opacity: 80%;
+    transition:all ease-in 0.2s;
+}
+
+.nav-logreg-sec a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-menu ul li:hover{
+   text-decoration: underline;
+   text-decoration-thickness:3px;
+   text-decoration-color: #ffb413;
+   opacity: 60%;
+}
+
+
+.nav-logreg-sec a:hover{
+    opacity: 80%;
+}
+
+/* Navigation Modification End */
+
+
+
+
+
+/* Events Contents Modification */
+
+#event-content-area{
+    margin: 0 calc(30%/2);
+    height:auto;
+    
+}
+
+
+
+.background-color-div{
+    width: 100%;
+    height: fit-content;
+    background-color: #000000;
+    padding: 80px 0px;
+}
+
+.main-event-covering{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.sub-event-wrap{
+    width: 49%;
+    height: auto;
+    color: white;
+    margin: 20px 0px 40px 0px;
+}
+
+.sub-event-wrap img{
+   width: 100%;
+   height: 100%;
+   opacity: 80%;
+}
+
+.sub-event-wrap h1 {
+   font-weight: 500;
+   font-size: 60px;
+
+ }
+
+ .sub-event-wrap h2{
+    font-weight: 400;
+    font-size: 30px;
+    margin-top: 30px;
+ }
+
+ .sub-event-wrap p{
+    font-weight: 300;
+    font-size: small;
+    margin-top: 5px;
+    text-align: justify;
+ }
+
+
+#party-customiz-covering{
+    margin: calc(10%/2) calc(30%/2) calc(10%/2) calc(30%/2);
+    height:auto;
+}
+
+.our-spaces-covering{
+    width: 100%;
+    height: auto;
+    margin: 50px 0px;
+}
+
+.our-spaces-covering h1{
+  text-align: center;
+  padding: 30px 0px 15px 0px;
+  font-weight: 600;
+  font-size: 50px;
+
+}
+
+.underline-covering{
+    display: flex;
+    height: auto;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+  
+  
+  }
+  
+  .underline-covering::before{
+      content: " ";
+      height: 6px;
+      width: 120px;
+      background-color: #191919;
+      position:absolute;
+      right: 50%;
+      margin-bottom: 20px;
+  
+  }
+  
+  .underline-covering::after{
+      content: " ";
+      height: 6px;
+      width: 120px;
+      background-color:#ffb413;
+      position: absolute;
+      left: 50%;
+      margin-bottom: 20px;
+  
+  }
+
+
+    /* Spaces Modification */
+
+.spaces-section1{
+    width: 100%;
+    height: 380px;
+    opacity: 90%;
+    background-image: url("new folder2/event1.jpg ");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 2px 0px;
+    box-shadow: 0px 9px 18px #0000001a;
+
+}
+.spaces-section1 a,.spaces-section1 h2{
+ color: #ffffff;
+ text-decoration: none;
+ font-weight: 500;
+ font-size: 40px;
+ width: 100%;
+ height: 100%;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ 
+ 
+}
+
+.spaces-section2{
+    width: 100%;
+    height: 380px;
+    opacity: 90%;
+    background-image: url("new folder2/event13.jpg ");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 2px 0px;
+    box-shadow: 0px 9px 18px #0000001a;
+}
+
+.spaces-section2 a,.spaces-section2 h2{
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 40px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+   }
+   
+
+.spaces-section3{
+    width: 100%;
+    height: 380px;
+    opacity: 90%;
+    background-image: url("new folder2/event8.webp ");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 2px 0px;
+    box-shadow: 0px 9px 18px #0000001a;
+}
+
+.spaces-section3 a,.spaces-section3 h2{
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 40px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+   }
+
+.spaces-section4{
+    width: 100%;
+    height: 380px;
+    opacity: 90%;
+    background-image: url("new folder2/event12.jpg ");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 2px 0px;
+    box-shadow: 0px 9px 18px #0000001a;
+}
+
+.spaces-section4 a,.spaces-section4 h2{
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 40px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+   }
+
+
+.spaces-section1:hover,.spaces-section2:hover,.spaces-section3:hover,.spaces-section4:hover{
+    opacity: 100%;
+}
+
+
+
+
+
+/* Form Modification for Spaces */
+#Customize-party-form-sec{
+    width: 100%;
+    height: auto;
+    margin: 140px 0px;
+}
+
+
+#Customize-party-form-sec h1{
+    text-align: center;
+    font-weight: 600;
+    font-size: 40px;
+    padding: 40px 0px 10px 0px;
+}
+#Customize-party-form-sec p{
+    font-weight: 300;
+    text-align: center;
+    padding: 5px 50px;
+}
+
+#Customize-party-form-sec form{
+    width: 100%;
+    height: auto;
+    margin: 50px 0px;
+    padding: 10px 180px;
+}
+
+
+#Customize-party-form-sec form h3{
+   font-size: x-large;
+   font-weight: 600;
+}
+
+.cus-party-names-sec{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+   
+}
+.cus-party-names-sec div{
+    width: 460px;
+    height: auto;
+}
+
+.cus-party-names-sec input{
+    width: 100%;
+    height: 25px;
+    padding: 25px;
+    margin: 20px 0px;
+    outline: none;
+    border: solid 1px black;
+    color: #333333d0;
+}
+
+.cus-party-other-inputs input{
+    width: 100%;
+    height: 25px;
+    padding: 25px;
+    margin: 15px 0px;
+    outline: none;
+    border: solid 1px black;
+    color: #333333d0;
+}
+
+.cus-party-other-inputs select{
+    width: 100%;
+    padding: 18px;
+    margin: 15px 0px;
+    height:auto;
+    font-size: large;
+    outline: none;
+    border: solid 1px black;
+    color: #333333d0;
+}
+
+.cus-party-other-inputs textarea{
+    padding: 25px;
+    font-size: 1.1em;
+    outline: none;
+    border: 1px solid #333;
+    resize: none;
+    min-height: 220px;
+    margin: 20px 0px;
+    width: 100%;
+    border: solid 1px black;
+    color: #333333d0;
+}
+
+input[placeholder], textarea[placeholder]{
+    font-size: medium;
+}
+
+
+
+#Customize-party-form-sec button{
+    width: 100%;
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    background-color: #ffb413;
+    color:#ffffff;
+    border: none;
+    font-size: larger;
+    font-weight: 600;
+}
+
+#Customize-party-form-sec button:hover{
+   opacity: 85%;
+}
+
+#Customize-party-form-sec span{
+    color: #ffb413;
+    margin-left: 4px;
+
+}
+
+
+
+
+
+
+
+
+/* ------Footer Section------ */
+
+
+
+.footer{
+    width: 100%;
+    height:580px;
+    background-color: #583c00d8;
+}
+
+
+.footersections{
+    display: flex;
+    width: 100%;
+    height: 500px;
+    color: #ffffff;
+
+}
+
+
+
+.fsection{
+    height: 480px;
+    width: 100%;
+    margin: calc(8%/6);
+}
+
+.footerfinalsec{
+    width: 100%;
+    height: 50px;
+}
+
+.fcarddetails{
+    margin: 23px;
+    height: 40px;
+}
+
+
+
+
+.fa {
+    padding: 16px;
+    font-size: 48px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 50px 0px;
+    border: rgb(255, 255, 255) solid 1.8px;
+   
+  }
+  
+  .fa:hover {
+
+    background-color: rgba(255, 0, 0, 0.226);
+      
+  }
+  
+  .fa-facebook {
+    background:none;
+    color: rgb(255, 255, 255);
+  }
+  
+  .fa-instagram {
+    background:none;
+    color: rgb(255, 255, 255);
+  }
+
+  .fa-linkedin {
+    background: none;
+    color: rgb(255, 255, 255);
+  }
+
+
+#flogo{
+    width: 50%;
+    height: 50px;
+    margin: 30px;
+}
+
+
+
+
+.getintouch h4{
+
+    height: 0 auto;
+    margin: 40px 0px 35px 30px;
+    word-spacing: 2px;
+    font-size: 1.3em;
+    display: flex;
+    justify-content: start;
+    
+}
+
+
+.footer-contacts h4{
+    padding-bottom: 10px;
+}
+
+
+
+.fsocial{
+    margin: 50px 0px 0px 30px;
+    word-spacing: 2px;
+    font-size: 1.3em;
+
+}
+
+
+
+
+
+.phone{
+    width: 50%;
+    height: 0 auto;
+    margin: 10px 30px 30px 30px;
+    word-spacing: 1.5px;
+
+}
+
+.phone h4{
+
+    font-weight: 400;
+
+}
+
+.info-n-menu-sec{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0px 50px 0px;
+
+}
+
+ 
+
+  
+.fshop{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 48px 0px 50px;
+    font-size: 1.05em;
+
+}
+
+
+.fsection ul{
+    list-style: none;
+    
+
+}
+
+.fsection a{
+
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.catogories{
+    margin: 0px 0px 0px 0px; ;
+}
+
+
+.fcatogories{
+
+    margin: 10px 0px 0px 0px; 
+
+
+}
+
+
+
+.floginfoarm{
+    margin: 30px 0px 0px 30px;
+}
+
+.loginhead p{
+    margin: 30px 0px 30px 0px;
+}
+
+
+
+
+.fshop li:hover{
+    color: rgba(255, 0, 0, 0.226);
+    text-decoration: underline 2.5px;
+    
+}
+
+
+
+
+
+.socialicons{
+    margin: 0px 0px 0px 5px;
+
+}
+
+.socialicons a{
+    margin: 30px 30px 0px 0px;
+
+}
+
+.footer-all-heading{
+    word-spacing: 2px;
+    font-size: 1.3em;
+    margin-left: 30px;
+    margin-bottom: 15px;
+   
+
+}
+
+.footer li{
+    padding-bottom: 15px;
+}
+
+
+.footer-menu h4{
+
+    height: 0 auto;
+    margin: 50px 0px 25px 0px;
+    word-spacing: 2px;
+    font-size: 1.3em;
+    display: flex;
+    align-items: center;
+    
+}
+
+.fhelp{
+    margin-right: 30px;
+}
+
+
+
+.shop-info{
+    margin: 40px 0px 0px 30px;
+}
+
+.shop-info-data{
+    margin: 40px 0px 35px 0px;
+    word-spacing: 2px;
+    font-size: 1.3em;
+}
+
+.footer-address h4{
+    padding: 0px 0px 15px 0px;
+    font-weight: 400;
+
+}
+
+
+.footersections a:hover{
+    opacity: 85%;
+}
+
+
+
+
+.footer-foarm{
+    display: flex;
+    justify-content: start;
+}
+
+#footeremail{
+    width: 100%;
+    height: 40px;
+}
+
+
+#footer-email-send-button {
+    border: 1.8px solid rgb(255, 255, 255);
+    color: rgba(255, 0, 0, 0.815);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 40px;
+    margin: 0px 30px 0px 10px;
+    cursor: default;
+    
+
+}
+
+#footer-email-send-button a{
+    cursor: default;
+    color: rgba(255, 0, 0, 0.815);
+
+
+}
+
+#footeremail input{
+    width: 100%;
+    height: 40px;
+    background:none;
+    padding-left:8px ;
+    border: 1.8px solid rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    outline: none;
+}
+
+#footer-email-send-button h4:hover{
+    opacity: 90%;
+
+}
+
+/* ------Footer Section End------ */ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

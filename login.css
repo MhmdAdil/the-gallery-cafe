@@ -1,0 +1,127 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 0.5px;
+}
+
+
+
+/* Login Content Sction Modification Start */
+
+#login-content-area{
+    width: 100%;
+    min-height: 100vh; /* Ensure it covers at least the viewport height */
+}
+
+.loging-full-covering{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+}
+
+.loging-content-sets{
+    width: 100%;
+    height: auto;
+}
+
+.log-sec1{
+    background-image: url("New folder2/event13.jpg");
+    height:100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+}
+
+.log-sec2{
+    min-height:100%;
+    width: 100%;
+    padding: 50px 180px;
+
+}
+
+.loging-logo{
+  height: 90px;
+  width: 100%;
+  margin: 20px 0px;
+  display: flex;
+  align-items:center;
+
+}
+
+.login-img{
+    width: 300px;
+    height: 80px;
+
+}
+
+.login-page-form-sec{
+    height: auto;
+    width: 100%;
+}
+
+#lg-form1, #lg-form2{
+    width: 100%;
+    height: auto;
+    margin: 50px 0px;
+}
+
+#lg-form1 h2, #lg-form2 h2{
+    height: 50px;
+    width: 100%;
+    color: #131313;
+    font-weight: 500;
+    font-size: xx-large;
+    margin-bottom: 25px;
+}
+
+#lg-form1 input, #lg-form2 input{
+    outline: none;
+    border: none;
+    border-bottom: 0.5px solid rgba(8, 8, 8, 0.438);
+    width: 100%;
+    margin-bottom: 50px;
+    padding-bottom: 8px;
+}
+
+#lg-form1 button , #lg-form2 button{
+    width: 30%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #131313;
+    text-transform: uppercase;
+    font-size: 18px;
+    letter-spacing: 2.83px;
+    box-shadow: 0px 3px 6px #00000029;
+    background-color: #ffb413;
+    border: none;
+    padding: 15px;
+    font-weight:400;
+}
+
+#lg-form1 button:hover , #lg-form2 button:hover{
+    transition: all .4s;
+    background-color: #f0a80d;
+    color: white;
+}
+
+input[placeholder] {
+    font-size: 16.8px;
+  }
+
+/* End Login Content Sction Modification*/
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,637 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 0.5px;
+}
+
+
+
+
+/* This is Navigation Bar Modification Part*/
+
+#home-nav-bar{
+    height: 130px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: large;
+    box-shadow: 0 0.25rem 0.75rem rgba(133, 133, 133, 0.7);
+    width: 100%;
+}
+
+.main-logo img{
+    height: 120px;  
+}
+
+#home-nav-bar a{
+    color: #191919;
+    text-decoration: none;
+}
+
+#home-nav-bar > div{
+    margin: 0 20px 0 20px;
+}
+
+.main-menu ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+
+}
+
+.main-menu ul li{
+    padding: 20px;
+}
+
+.nav-logreg-sec,button{
+    display: flex;
+    margin: 0px 10px;
+}
+
+.nav-logreg-sec div{
+    display: flex;
+    margin: 0px 10px;
+}
+
+.nav-logreg-sec button{
+    color: white;
+    background-color:#ffb413;
+    padding: 15px;
+    margin-right: 30px;
+    font-size: medium;
+    border: none;
+    font-weight: 600;
+}
+
+.nav-logreg-sec button:hover{
+    opacity: 80%;
+    transition:all ease-in 0.2s;
+}
+
+.nav-logreg-sec a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-menu ul li:hover{
+   text-decoration: underline;
+   text-decoration-thickness:3px;
+   text-decoration-color: #ffb413;
+   opacity: 60%;
+}
+
+
+.nav-logreg-sec a:hover{
+    opacity: 80%;
+}
+
+/* Navigation Modification End */
+
+
+
+
+
+#main-menu-content-area{
+    margin: calc(10%/2) calc(30%/2) calc(10%/2) calc(30%/2);
+    height:auto;
+    
+}
+
+
+/* Starting Breakfast Menu Content Section Modification */
+
+
+#main-menu-content-area h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #191919;
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    letter-spacing: 4px;
+
+}
+
+#main-menu-content-area span{
+    color:#ffb413;
+    margin-left: 10px;
+    letter-spacing: 4px;
+}
+
+
+.main-type-nav-covering{
+    display: flex;
+    width: 100%;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-menu-types{
+    width: 140px;
+    height: 40px;
+    margin: 0px 10px;
+    border: #ffb413 2px solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+.main-menu-types h3{
+    width: 140px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+    font-size: medium;
+    height:40px;
+   
+}
+
+.main-menu-types a{
+color: black;
+text-decoration: none;
+
+}
+
+
+
+
+/* Breakfast Menu background color modification */
+
+
+.menu-bg-color{
+    width: 140px;
+    height: 40px;
+    margin: 0px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: #ffb413;
+}
+
+.menu-bg-color a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+
+.menu-bg-color h3{
+    width: 140px;
+    height:40px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    font-size: medium;
+
+}
+
+
+
+
+
+/* Food cards modification */
+
+
+
+.food-card-full-covering{
+    width: 100%;
+    height: auto;
+    margin: 30px 0px;
+    display: flex;
+}
+
+
+.food-card-wrap{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    box-shadow: 0px 3px 6px #00000029;
+    margin:20px 30px 20px 0px;
+}
+
+
+.food-card-sec-img img{
+    width: 100%;
+    height: 200px;
+}
+
+.food-card-sec-img{
+        width: 30%;
+        height: 200px;
+        margin-right: 15px;
+    
+}
+
+.food-card-sec-details{
+    width: 60%;
+    height: 200px;
+
+}
+
+.card-detail-wrap{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.food-card-sec-details h4{
+    font-weight: 600;
+    font-size: larger;
+    margin: 10px 0px;
+
+}
+
+.food-card-sec-details p{
+    font-weight: 300;
+    font-size: small;
+    text-align: justify;
+    padding: 10px 20px 10px 0px;
+
+}
+
+.food-card-full-area{
+    width: 60%;
+    height: auto;
+}
+
+.food-card-sec-price h5{
+    font-size: medium;
+}
+
+
+.food-card-sec-price-but-covering{
+    display: flex;
+    width: 100%;
+    height: 80px;
+    justify-content: space-between;
+    margin: 0px 10px;
+    padding: 10px 20px 10px 0px;
+    align-items: center;
+}
+
+
+.food-card-sec-price-but-covering button{
+ color: #ffffff;
+ background-color: #ffb413;
+ width: 120px;
+ height: 40px;
+ font-weight: 600;
+ border: none;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.food-card-sec-price-but-covering button:hover{
+    color: #ffffff;
+    background-color: #e9a81b;
+
+   }
+   
+
+
+
+/* Cart Menu Modification */
+
+
+
+.food-cart-full-covering{
+    width: 40%;
+    height:auto;
+    box-shadow: 0px 3px 6px #00000029;
+    margin: 20px 0px 20px 30px;
+}
+
+.food-cart-full-covering h2{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:30px 0px;
+    font-weight: 500;
+    color: #ffb413;
+
+}
+
+
+
+/* ------Footer Section------ */
+
+
+
+.footer{
+    width: 100%;
+    height:580px;
+    background-color: #583c00d8;
+}
+
+
+.footersections{
+    display: flex;
+    width: 100%;
+    height: 500px;
+    color: #ffffff;
+
+}
+
+
+
+.fsection{
+    height: 480px;
+    width: 100%;
+    margin: calc(8%/6);
+}
+
+.footerfinalsec{
+    width: 100%;
+    height: 50px;
+}
+
+.fcarddetails{
+    margin: 23px;
+    height: 40px;
+}
+
+
+
+
+.fa {
+    padding: 16px;
+    font-size: 48px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 50px 0px;
+    border: rgb(255, 255, 255) solid 1.8px;
+   
+  }
+  
+  .fa:hover {
+
+    background-color: rgba(255, 0, 0, 0.226);
+      
+  }
+  
+  .fa-facebook {
+    background:none;
+    color: rgb(255, 255, 255);
+  }
+  
+  .fa-instagram {
+    background:none;
+    color: rgb(255, 255, 255);
+  }
+
+  .fa-linkedin {
+    background: none;
+    color: rgb(255, 255, 255);
+  }
+
+
+#flogo{
+    width: 50%;
+    height: 50px;
+    margin: 30px;
+}
+
+
+
+
+.getintouch h4{
+
+    height: 0 auto;
+    margin: 40px 0px 35px 30px;
+    word-spacing: 2px;
+    font-size: 1.3em;
+    display: flex;
+    justify-content: start;
+    
+}
+
+
+.footer-contacts h4{
+    padding-bottom: 10px;
+}
+
+
+
+.fsocial{
+    margin: 50px 0px 0px 30px;
+    word-spacing: 2px;
+    font-size: 1.3em;
+
+}
+
+
+
+
+
+.phone{
+    width: 50%;
+    height: 0 auto;
+    margin: 10px 30px 30px 30px;
+    word-spacing: 1.5px;
+
+}
+
+.phone h4{
+
+    font-weight: 400;
+
+}
+
+.info-n-menu-sec{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0px 50px 0px;
+
+}
+
+ 
+
+  
+.fshop{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 48px 0px 50px;
+    font-size: 1.05em;
+
+}
+
+
+.fsection ul{
+    list-style: none;
+    
+
+}
+
+.fsection a{
+
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.catogories{
+    margin: 0px 0px 0px 0px; ;
+}
+
+
+.fcatogories{
+
+    margin: 10px 0px 0px 0px; 
+
+
+}
+
+
+
+.floginfoarm{
+    margin: 30px 0px 0px 30px;
+}
+
+.loginhead p{
+    margin: 30px 0px 30px 0px;
+}
+
+
+
+
+.fshop li:hover{
+    color: rgba(255, 0, 0, 0.226);
+    text-decoration: underline 2.5px;
+    
+}
+
+
+
+
+
+.socialicons{
+    margin: 0px 0px 0px 5px;
+
+}
+
+.socialicons a{
+    margin: 30px 30px 0px 0px;
+
+}
+
+.footer-all-heading{
+    word-spacing: 2px;
+    font-size: 1.3em;
+    margin-left: 30px;
+    margin-bottom: 15px;
+   
+
+}
+
+.footer li{
+    padding-bottom: 15px;
+}
+
+
+.footer-menu h4{
+
+    height: 0 auto;
+    margin: 50px 0px 25px 0px;
+    word-spacing: 2px;
+    font-size: 1.3em;
+    display: flex;
+    align-items: center;
+    
+}
+
+.fhelp{
+    margin-right: 30px;
+}
+
+
+
+.shop-info{
+    margin: 40px 0px 0px 30px;
+}
+
+.shop-info-data{
+    margin: 40px 0px 35px 0px;
+    word-spacing: 2px;
+    font-size: 1.3em;
+}
+
+.footer-address h4{
+    padding: 0px 0px 15px 0px;
+    font-weight: 400;
+
+}
+
+
+.footersections a:hover{
+    opacity: 85%;
+}
+
+
+
+
+.footer-foarm{
+    display: flex;
+    justify-content: start;
+}
+
+#footeremail{
+    width: 100%;
+    height: 40px;
+}
+
+
+#footer-email-send-button {
+    border: 1.8px solid rgb(255, 255, 255);
+    color: rgba(255, 0, 0, 0.815);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 40px;
+    margin: 0px 30px 0px 10px;
+    cursor: default;
+    
+
+}
+
+#footer-email-send-button a{
+    cursor: default;
+    color: rgba(255, 0, 0, 0.815);
+
+
+}
+
+#footeremail input{
+    width: 100%;
+    height: 40px;
+    background:none;
+    padding-left:8px ;
+    border: 1.8px solid rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    outline: none;
+}
+
+#footer-email-send-button h4:hover{
+    opacity: 90%;
+
+}
+
+/* ------Footer Section End------ */ 
